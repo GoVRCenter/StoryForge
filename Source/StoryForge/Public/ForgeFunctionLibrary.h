@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Kismet/BlueprintFunctionLibrary.h"
+//#include "Kismet/BlueprintFunctionLibrary.h"
 #include "ForgeFunctionLibrary.generated.h"
 
 /**
@@ -15,7 +15,7 @@ class STORYFORGE_API UForgeFunctionLibrary : public UBlueprintFunctionLibrary
 	GENERATED_BODY()
 
 	UFUNCTION(BlueprintCallable, Category = "ForgeFunctions")
-	void UsefulFunction();
+	bool UsefulFunction(bool inBool);
 	
 	
 };

@@ -3,15 +3,17 @@
 //#include "LandscapeSplinesComponent.h"
 
 
-void UForgeFunctionLibrary::UsefulFunction() {
+bool UForgeFunctionLibrary::UsefulFunction(bool inBool) {
 
-
+	inBool = !inBool;
 
 	//TArray< TWeakObjectPtr<ULandscapeSplineSegment> > Segments;
 	//for (TObjectIterator<ULandscapeSplineSegment> Itr; Itr; ++Itr)
 	//{
 		//Segments.Add(TWeakObjectPtr<ULandscapeSplineSegment>(*Itr));
 	//}
+
+	return inBool;
 }
 
 
