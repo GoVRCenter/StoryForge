@@ -3,12 +3,11 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-[SupportPlatforms(UnrealPlatformClass.Server)]
-public class StoryForgeServerTarget : TargetRules
+public class StoryForgeEditorTarget : TargetRules
 {
-	public StoryForgeServerTarget(TargetInfo Target) : base(Target)
+	public StoryForgeEditorTarget(TargetInfo Target) : base(Target)
 	{
-		Type = TargetType.Server;
+		Type = TargetType.Editor;
 
 		ExtraModuleNames.AddRange( new string[] { "StoryForge" } );
 	}
