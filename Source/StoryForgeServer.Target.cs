@@ -3,7 +3,7 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-[SupportPlatforms(UnrealPlatformClass.Server)]
+[SupportedPlatforms(UnrealPlatformClass.Server)]
 public class StoryForgeServerTarget : TargetRules
 {
 	public StoryForgeServerTarget(TargetInfo Target) : base(Target)

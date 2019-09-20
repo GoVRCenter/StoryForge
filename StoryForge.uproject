@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{B270CEF7-4E28-088B-548D-6DBF6616E886}",
+	"EngineAssociation": "{6B1F7979-4122-B5DC-529B-BBA8D4774BC6}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -20,6 +20,10 @@
 		},
 		{
 			"Name": "BlueprintMaterialTextureNodes",
+			"Enabled": true
+		},
+		{
+			"Name": "GameLiftServerSDK",
 			"Enabled": true
 		}
 	]
